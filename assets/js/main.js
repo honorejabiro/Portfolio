@@ -10,10 +10,10 @@ function myMenuFunction(){
 }
 
 function downloadCV() {
-  const resumeURL = 'assets/files/resume.pdf';
+  const resumeURL = "assets/files/jabiro's resume.pdf";
   const link = document.createElement('a');
   link.href = resumeURL;
-  link.setAttribute('download', 'HonoreJabiro_Resume.pdf'); 
+  link.setAttribute('download', "jabiro's resume.pdf"); 
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
